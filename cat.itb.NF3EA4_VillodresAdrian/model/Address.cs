@@ -1,17 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
 
-namespace cat.itb.NF3EA1_VillodresAdrian.Model
+namespace cat.itb.M6UF3EA2_sol.model
 {
+
     [Serializable]
     public class Address
     {
-        public string building { get; set; }
-        public List<double> coord { get; set; }
-        public string street { get; set; }
-        public string zipcode { get; set; }
+        //ATTRIBUTES
+
+        [JsonProperty("building")]
+        public String Building { get; set; }
+
+        [JsonProperty("coord")]
+        public double[] Coord { get; set; }
+
+        [JsonProperty("street")]
+        public string Street { get; set; }
+
+        [JsonProperty("zipcode")]
+        public String Zipcode { get; set; }
+
+
+        //ToSTRING
+        public override string ToString()
+        {
+            return "Building: " + Building + "  Coord: " + Coord + "   Street: " + Street + "   Zipcode: " + Zipcode;
+        }
+
     }
 }
+

@@ -1,43 +1,96 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
-using MongoDB.Bson;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
+using Newtonsoft.Json;
 
-namespace cat.itb.NF3EA1_VillodresAdrian.Model
+namespace cat.itb.M6UF3EA2_sol.model
 {
     [Serializable]
-
     public class Country
-    {
-        [BsonId]
-        public ObjectId Id { get; set; }
-        public string name { get; set; }
-        public string[] topLevelDomain { get; set; }
-        public string alpha2Code { get; set; }
-        public string alpha3Code { get; set; }
-        public string[] callingCodes { get; set; }
-        public string capital { get; set; }
-        public string[] altSpellings { get; set; }
-        public string region { get; set; }
-        public string subregion { get; set; }
-        public int population { get; set; }
-        public double[] latlng { get; set; }
-        public string demonym { get; set; }
-        public double? area { get; set; }
-        public double? gini { get; set; }
-        public string[] timezones { get; set; }
-        public string[] borders { get; set; }
-        public string nativeName { get; set; }
-        public string numericCode { get; set; }
-        public List<Currency> currencies { get; set; }
-        public List<Language> languages { get; set; }
-        public Translation translations { get; set; }
-        public string flag { get; set; }
-        public List<RegionalBloc> regionalBlocs { get; set; }
-        public string cioc { get; set; }
-    }
 
+    {
+        //ATTRIBUTES
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        [JsonIgnore]
+        public string _id { get; set; }
+
+        [JsonProperty("name")]
+        public string Name { get; set; }
+
+        [JsonProperty("topLevelDomain")]
+        public List<String> TopLevelDomain { get; set; }
+
+        [JsonProperty("alpha2Code")]
+        public String Alpha2Code { get; set; }
+
+        [JsonProperty("alpha3Code")]
+        public String Alpha3Code { get; set; }
+
+        [JsonProperty("callingCodes")]
+        public List<String> CallingCodes { get; set; }
+
+        [JsonProperty("capital")]
+        public String Capital { get; set; }
+
+        [JsonProperty("altSpellings")]
+        public List<String> AltSpellings { get; set; }
+
+        [JsonProperty("region")]
+        public String Region { get; set; }
+
+        [JsonProperty("subregion")]
+        public String Subregion { get; set; }
+
+        [JsonProperty("population")]
+        public int Population { get; set; }
+
+        [JsonProperty("latlng")]
+        public List<Double> Latlng { get; set; }
+
+        [JsonProperty("demonym")]
+        public String Demonym { get; set; }
+
+        [JsonProperty("area")]
+        public Double? Area { get; set; }
+
+        [JsonProperty("gini")]
+        public Double? Gini { get; set; }
+
+        [JsonProperty("timezones")]
+        public List<String> Timezones { get; set; }
+
+        [JsonProperty("borders")]
+        public List<String> Borders { get; set; }
+
+        [JsonProperty("nativeName")]
+        public String NativeName { get; set; }
+
+        [JsonProperty("numericCode")]
+        public String NumericCode { get; set; }
+
+        [JsonProperty("currencies")]
+        public List<Currency> Currencies { get; set; }
+
+        [JsonProperty("languages")]
+        public List<Language> Languages { get; set; }
+
+        [JsonProperty("translations")]
+        public Translation Translations { get; set; }
+
+        [JsonProperty("flag")]
+        public String Flag { get; set; }
+
+        [JsonProperty("regionalBlocs")]
+        public List<RegionalBloc> RegionalBlocs { get; set; }
+
+        [JsonProperty("cioc")]
+        public String Cioc { get; set; }
+
+    }
 }

@@ -1,18 +1,32 @@
-﻿using System;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace UF3_test.model
+namespace cat.itb.M6UF3EA2_sol.model
 {
     [Serializable]
     public class Product
     {
-        public string name { get; set; }
-        public int price { get; set; }
-        public int stock { get; set; }
-        public string picture { get; set; }
-        public List<string> categories { get; set; }
+        //ATTRIBUTES
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        [JsonIgnore]
+        public string _id { get; set; }
+        [JsonProperty("name")]
+        public string Name { get; set; }
+
+        [JsonProperty("price")]
+        public int Price { get; set; }
+
+        [JsonProperty("stock")]
+        public int Stock { get; set; }
+
+        [JsonProperty("picture")]
+        public string Picture { get; set; }
+
+        [JsonProperty("categories")]
+        public List<string> Categories { get; set; }
     }
 }

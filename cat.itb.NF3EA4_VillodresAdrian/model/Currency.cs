@@ -1,16 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Newtonsoft.Json;
+using System;
 
-namespace cat.itb.NF3EA1_VillodresAdrian.Model
+namespace cat.itb.M6UF3EA2_sol.model
 {
-    [Serializable]
     public class Currency
+
     {
-        public string code { get; set; }
-        public string name { get; set; }
-        public string symbol { get; set; }
+        //ATTRIBUTES
+
+        [JsonProperty("code")]
+        public String Code { get; set; }
+
+        [JsonProperty("name")]
+        public String Name { get; set; }
+
+        [JsonProperty("symbol")]
+        public String Symbol { get; set; }
     }
 }

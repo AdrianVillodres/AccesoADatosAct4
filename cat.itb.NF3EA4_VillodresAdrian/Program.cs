@@ -1,4 +1,5 @@
-﻿using cat.itb.NF3EA4_VillodresAdrian.cruds;
+﻿using cat.itb.NF3EA3_VillodresAdrian.cruds;
+using cat.itb.NF3EA4_VillodresAdrian.cruds;
 
 class Program
 {
@@ -39,28 +40,30 @@ class Program
                 {
                     case "1":
                         Console.WriteLine("");
-
+                        country.LoadCountriesCollection();
+                        product.LoadProductsCollection();
+                        restaurant.LoadRestaurantsCollection();
                         Console.WriteLine("Coleccions importades correctament");
                         Console.WriteLine("");
                         break;
                     case "2":
                         Console.WriteLine("");
-
+                        country.CountEnglishCountries();
                         Console.WriteLine("");
                         break;
                     case "3":
                         Console.WriteLine("");
-
+                        country.SelectMostPoblatedRegion();
                         Console.WriteLine("");
                         break;
                     case "4":
                         Console.WriteLine("");
-
+                        country.CountCountriesSubregions();
                         Console.WriteLine("");
                         break;
                     case "5":
                         Console.WriteLine("");
-
+                        country.SelectMostSpeakLanguagesCountry();
                         Console.WriteLine("");
                         break;
                     case "6":
@@ -101,3 +104,4 @@ class Program
 
         }
     }
+}

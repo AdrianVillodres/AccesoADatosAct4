@@ -1,20 +1,21 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
-namespace UF3_test.model
+namespace cat.itb.M6UF3EA2_sol.model
 {
-
     [Serializable]
     public class PublishedDate
     {
-        [JsonProperty("$date")]
-        public String date { get; set; }
+        //ATTRIBUTES
 
+        [JsonProperty("$date")]
+        public String _Date { get; set; }
+
+        //ToSTRING
         public override string ToString()
         {
             return
                 "PublishedDate{" +
-                "$date = '" + date + '\'' +
+                "$_Date = '" + _Date + '\'' +
                 "}";
         }
     }

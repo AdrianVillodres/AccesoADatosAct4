@@ -1,18 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Formats.Asn1.AsnWriter;
+using Newtonsoft.Json;
+using System;
 
-namespace cat.itb.NF3EA1_VillodresAdrian.Model
+namespace cat.itb.M6UF3EA2_sol.model
 {
+    [Serializable]
     public class Grade
     {
-        public Oid? _id { get; set; }
-        public NumberInt? student_id { get; set; }
-        public List<Score> scores { get; set; }
-        public NumberInt? class_id { get; set; }
+        //ATTRIBUTES
+
+        [JsonProperty("date")]
+        public LongDate _Date { get; set; }
+
+        [JsonProperty("grade")]
+        public String _Grade { get; set; }
+
+        [JsonProperty("score")]
+        public int Score { get; set; }
+
+        //ToSTRING
+        public override string ToString()
+        {
+            return "_Date: " + _Date + "  _Grade: " + _Grade + "   _Score: " + Score;
+        }
+
     }
 }
+

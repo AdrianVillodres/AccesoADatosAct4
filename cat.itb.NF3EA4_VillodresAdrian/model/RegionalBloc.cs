@@ -1,16 +1,28 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cat.itb.NF3EA1_VillodresAdrian.Model
+
+namespace cat.itb.M6UF3EA2_sol.model
 {
+    [Serializable]
     public class RegionalBloc
     {
-        public string acronym { get; set; }
-        public string name { get; set; }
-        public List<string> otherAcronyms { get; set; }
-        public List<string> otherNames { get; set; }
+        //ATTRIBUTES
+
+        [JsonProperty("acronym")]
+        public String Acronym { get; set; }
+
+        [JsonProperty("name")]
+        public String Name { get; set; }
+
+        [JsonProperty("otherAcronyms")]
+        public List<String> OtherAcronyms { get; set; }
+
+        [JsonProperty("otherNames")]
+        public List<String> OtherNames { get; set; }
     }
 }

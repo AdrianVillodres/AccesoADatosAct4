@@ -1,13 +1,16 @@
-﻿using System;
+using Newtonsoft.Json;
+using System;
 
-namespace UF3_test.model
-
+namespace cat.itb.M6UF3EA2_sol.model
 {
     [Serializable]
     public class Friend
     {
-        public int id { get; set; }
-        public string name { get; set; }
+        [JsonProperty("id")]
+        public int Id { get; set; }
+
+        [JsonProperty("name")]
+        public string Name { get; set; }
     }
 }
 
