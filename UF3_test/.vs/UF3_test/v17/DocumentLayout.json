@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\files\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:files\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\files\\books2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:files\\books2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\publisheddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\publisheddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\connections\\mongoclusterconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:connections\\mongoclusterconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\person2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\person2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\files\\people.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:files\\people.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\files\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:files\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\book2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\book2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\files\\products2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:files\\products2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\publisheddate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\publisheddate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\product2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\product2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea4. agregacions\\uf3_test\\publicat\\uf3_test\\connections\\mongolocalconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:connections\\mongolocalconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAALgDAAAAAAAAAAAawL0DAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:10:08.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "products.json",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\products.json",
+              "RelativeDocumentMoniker": "files\\products.json",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\products.json",
+              "RelativeToolTip": "files\\products.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T22:13:50.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MongoClusterConnection.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\connections\\MongoClusterConnection.cs",
+              "RelativeDocumentMoniker": "connections\\MongoClusterConnection.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\connections\\MongoClusterConnection.cs",
+              "RelativeToolTip": "connections\\MongoClusterConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:08:03.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Book.cs",
+              "RelativeDocumentMoniker": "model\\Book.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Book.cs",
+              "RelativeToolTip": "model\\Book.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:00:51.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PublishedDate.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\PublishedDate.cs",
+              "RelativeDocumentMoniker": "model\\PublishedDate.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\PublishedDate.cs",
+              "RelativeToolTip": "model\\PublishedDate.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:01:37.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "books.json",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\books.json",
+              "RelativeDocumentMoniker": "files\\books.json",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\books.json",
+              "RelativeToolTip": "files\\books.json",
+              "ViewState": "AQIAAGIEAAAAAAAAAAAAAHIEAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T22:33:55.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "books2.json",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\books2.json",
+              "RelativeDocumentMoniker": "files\\books2.json",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\books2.json",
+              "RelativeToolTip": "files\\books2.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T22:29:20.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "products2.json",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\products2.json",
+              "RelativeDocumentMoniker": "files\\products2.json",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\products2.json",
+              "RelativeToolTip": "files\\products2.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T22:45:55.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Friend.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Friend.cs",
+              "RelativeDocumentMoniker": "model\\Friend.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Friend.cs",
+              "RelativeToolTip": "model\\Friend.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T14:49:42.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person2.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Person2.cs",
+              "RelativeDocumentMoniker": "model\\Person2.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Person2.cs",
+              "RelativeToolTip": "model\\Person2.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:42:44.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Person.cs",
+              "RelativeDocumentMoniker": "model\\Person.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Person.cs",
+              "RelativeToolTip": "model\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowDcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:23:51.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "people.json",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\people.json",
+              "RelativeDocumentMoniker": "files\\people.json",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\files\\people.json",
+              "RelativeToolTip": "files\\people.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T22:44:46.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product2.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Product2.cs",
+              "RelativeDocumentMoniker": "model\\Product2.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Product2.cs",
+              "RelativeToolTip": "model\\Product2.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:48:07.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Product.cs",
+              "RelativeDocumentMoniker": "model\\Product.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Product.cs",
+              "RelativeToolTip": "model\\Product.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:01:08.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Book2.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Book2.cs",
+              "RelativeDocumentMoniker": "model\\Book2.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\Book2.cs",
+              "RelativeToolTip": "model\\Book2.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:35:07.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PublishedDate2.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\PublishedDate2.cs",
+              "RelativeDocumentMoniker": "model\\PublishedDate2.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\model\\PublishedDate2.cs",
+              "RelativeToolTip": "model\\PublishedDate2.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwBEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:37:15.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MongoLocalConnection.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\connections\\MongoLocalConnection.cs",
+              "RelativeDocumentMoniker": "connections\\MongoLocalConnection.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA4. Agregacions\\UF3_test\\Publicat\\UF3_test\\connections\\MongoLocalConnection.cs",
+              "RelativeToolTip": "connections\\MongoLocalConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:08:41.731Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
