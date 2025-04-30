@@ -48,23 +48,150 @@ namespace cat.itb.NF3EA4_VillodresAdrian.cruds
         public void SelectRestaurantScores()
         {
             var database = MongoLocalConnection.GetDatabase("itb");
-            var restaurantCollection = database.GetCollection<Restaurant>("restaurant");
+            var restaurantCollection = database.GetCollection<Restaurant>("restaurants");
 
             var results = restaurantCollection.Aggregate()
-                .Unwind("Grades")
+                .Unwind("grades")
                 .Group(new BsonDocument
                 {
-            { "_id", "Grades.score" },
-            { "count", new BsonDocument("$sum", 1) }
+                    { "_id", "$grades.score" },
+                    { "count", new BsonDocument("$sum", 1) }
                 })
-                .Sort("{_id: 1}");
-            var fresults = results.ToList();
+                .Sort(new BsonDocument("_id", 1))
+                .ToList();
 
-            foreach (var result in fresults)
+            foreach (var result in results)
             {
-                Console.WriteLine("hola");
-                Console.WriteLine($"Score: {result["_id"]}, Count: {result["count"]}");
+                var score = result["_id"];
+                var count = result["count"];
+
+                Console.WriteLine($"Score: {score}, Count: {count}");
             }
         }
+
+
+        public void SelectBoroughtZipCodes()
+        {
+            var database = MongoLocalConnection.GetDatabase("itb");
+            var restaurantCollection = database.GetCollection<Restaurant>("restaurants");
+
+            var results = restaurantCollection.Aggregate()
+                .Group(r => r.Borough, g => new
+                {
+                    Borough = g.Key,
+                    ZipCodes = g.Select(r => r.Address.Zipcode).Where(z => z != null).Distinct().ToList()
+                })
+                .ToList();
+
+            foreach (var result in results)
+            {
+                var borough = result.Borough;
+                Console.WriteLine($"Borough: {borough}");
+                foreach (var zipcode in result.ZipCodes)
+                {
+                    Console.WriteLine($"  Zipcode: {zipcode}");
+                }
+            }
+        }
+
+
+        public void CountRestaurantsByCuisine()
+        {
+            var database = MongoLocalConnection.GetDatabase("itb");
+            var restaurantCollection = database.GetCollection<Restaurant>("restaurants");
+
+            var results = restaurantCollection.Aggregate()
+                .Group(r => r.Cuisine, g => new
+                {
+                    Cuisine = g.Key,
+                    Count = g.Count()
+                })
+                .SortBy(r => r.Count)
+                .ToList();
+
+            foreach (var result in results)
+            {
+                var cuisine = result.Cuisine;
+                Console.WriteLine($"Cuisine: {cuisine}, Count: {result.Count}");
+            }
+        }
+
+
+
+        public void CountRestaurantGrades()
+        {
+            var database = MongoLocalConnection.GetDatabase("itb");
+            var restaurantCollection = database.GetCollection<Restaurant>("restaurants");
+
+            var results = restaurantCollection.Aggregate()
+                .Project(r => new
+                {
+                    Name = r.Name,
+                    RatingsCount = r.Grades.Count
+                })
+                .ToList();
+
+            foreach (var result in results)
+            {
+                Console.WriteLine($"Restaurant: {result.Name}, Ratings Count: {result.RatingsCount}");
+            }
+        }
+
+
+
+        public void SelectRestaurantNamesByCuisineAndBorought()
+        {
+            var database = MongoLocalConnection.GetDatabase("itb");
+            var restaurantCollection = database.GetCollection<Restaurant>("restaurants");
+
+            var results = restaurantCollection.Aggregate()
+                .Group(r => new { r.Borough, r.Cuisine }, g => new
+                {
+                    Borough = g.Key.Borough,
+                    Cuisine = g.Key.Cuisine,
+                    RestaurantNames = g.Select(r => r.Name).ToList()
+                })
+                .SortBy(r => r.Borough)
+                .SortBy(r => r.Cuisine)
+                .ToList();
+
+            foreach (var result in results)
+            {
+                Console.WriteLine($"Borough: {result.Borough}, Cuisine: {result.Cuisine}");
+                foreach (var name in result.RestaurantNames)
+                {
+                    Console.WriteLine($"    {name}");
+                }
+            }
+        }
+
+
+        public void SelectHigherScore()
+        {
+            var database = MongoLocalConnection.GetDatabase("itb");
+            var restaurantCollection = database.GetCollection<Restaurant>("restaurants");
+
+            var results = restaurantCollection.Aggregate()
+                .Unwind("grades")
+                .Group(new BsonDocument
+                {
+            { "_id", "$name" },
+            { "highestScore", new BsonDocument("$max", "$grades.score") }
+                })
+                .Sort(new BsonDocument { { "highestScore", -1 } })
+                .ToList();
+
+            foreach (var result in results)
+            {
+                var name = result["_id"].AsString;
+                var score = result["highestScore"].AsInt32;
+                Console.WriteLine($"Restaurant: {name}, Highest Score: {score}");
+            }
+        }
+
+
+
+
+
     }
 }

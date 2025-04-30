@@ -31,21 +31,56 @@ namespace cat.itb.NF3EA3_VillodresAdrian.cruds
                 while ((line = sr.ReadLine()) != null)
                 {
                     Product product = JsonConvert.DeserializeObject<Product>(line);
+                    if (product == null) continue;
 
                     if (ObjectId.TryParse(product._id, out var objectId))
-                    {
                         product._id = objectId.ToString();
-                    }
                     else
-                    {
                         product._id = ObjectId.GenerateNewId().ToString();
-                    }
 
                     collection.InsertOne(product);
                     Console.WriteLine(product.Name);
                 }
             }
         }
-    }        
+        public void SelectCategoriesPerProduct()
+        {
+            var database = MongoLocalConnection.GetDatabase("itb");
+            var productCollection = database.GetCollection<Product>("products");
+
+            var results = productCollection.Aggregate()
+                .Unwind<Product, Product>(p => p.Categories)
+                .Group(
+                    p => p.Name,
+                    g => new
+                    {
+                        ProductName = g.Key,
+                        CategoryCount = g.Count()
+                    })
+                .ToList();
+
+            foreach (var item in results)
+            {
+                Console.WriteLine($"Product: {item.ProductName}, Categories: {item.CategoryCount}");
+            }
+        }
+
+        public void SelectUniqueCategories()
+        {
+            var database = MongoLocalConnection.GetDatabase("itb");
+            var productCollection = database.GetCollection<Product>("products");
+
+            var results = productCollection.Aggregate()
+                .Unwind(p => p.Categories)
+                .Group(c => c, g => new { Category = g.Key })
+                .ToList();
+
+            foreach (var item in results)
+            {
+                Console.WriteLine($"Category: {item.Category}");
+            }
+        }
+
+    }
 
 }

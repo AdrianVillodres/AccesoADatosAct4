@@ -73,22 +73,37 @@ class Program
                         break;
                     case "7":
                         Console.WriteLine("");
-
+                        restaurant.SelectBoroughtZipCodes();
                         Console.WriteLine("");
                         break;
                     case "8":
                         Console.WriteLine("");
-
+                        restaurant.CountRestaurantsByCuisine();
                         Console.WriteLine("");
                         break;
                     case "9":
                         Console.WriteLine("");
-
+                        restaurant.CountRestaurantGrades();
                         Console.WriteLine("");
                         break;
                     case "10":
                         Console.WriteLine("");
-
+                        restaurant.SelectRestaurantNamesByCuisineAndBorought();
+                        Console.WriteLine("");
+                        break;
+                    case "11":
+                        Console.WriteLine("");
+                        restaurant.SelectHigherScore();
+                        Console.WriteLine("");
+                        break;
+                    case "12":
+                        Console.WriteLine("");
+                        product.SelectCategoriesPerProduct();
+                        Console.WriteLine("");
+                        break;
+                    case "13":
+                        Console.WriteLine("");
+                        product.SelectUniqueCategories();
                         Console.WriteLine("");
                         break;
                     case "0":
