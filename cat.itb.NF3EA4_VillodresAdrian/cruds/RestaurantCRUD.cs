@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using cat.itb.M6UF3EA2_sol.model;
 using cat.itb.NF3EA1_VillodresAdrian.Model;
 using MongoDB.Bson;
+using MongoDB.Driver;
 using Newtonsoft.Json;
 using UF3_test.connections;
 
@@ -39,7 +40,30 @@ namespace cat.itb.NF3EA4_VillodresAdrian.cruds
                     }
 
                     collection.InsertOne(restaurants);
+                    Console.WriteLine(restaurants.Name);
                 }
+            }
+        }
+
+        public void SelectRestaurantScores()
+        {
+            var database = MongoLocalConnection.GetDatabase("itb");
+            var restaurantCollection = database.GetCollection<Restaurant>("restaurant");
+
+            var results = restaurantCollection.Aggregate()
+                .Unwind("Grades")
+                .Group(new BsonDocument
+                {
+            { "_id", "Grades.score" },
+            { "count", new BsonDocument("$sum", 1) }
+                })
+                .Sort("{_id: 1}");
+            var fresults = results.ToList();
+
+            foreach (var result in fresults)
+            {
+                Console.WriteLine("hola");
+                Console.WriteLine($"Score: {result["_id"]}, Count: {result["count"]}");
             }
         }
     }

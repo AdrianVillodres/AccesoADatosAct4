@@ -42,6 +42,7 @@ namespace cat.itb.NF3EA3_VillodresAdrian.cruds
                     }
 
                     collection.InsertOne(product);
+                    Console.WriteLine(product.Name);
                 }
             }
         }

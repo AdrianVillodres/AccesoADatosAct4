@@ -68,7 +68,7 @@ class Program
                         break;
                     case "6":
                         Console.WriteLine("");
-
+                        restaurant.SelectRestaurantScores();
                         Console.WriteLine("");
                         break;
                     case "7":

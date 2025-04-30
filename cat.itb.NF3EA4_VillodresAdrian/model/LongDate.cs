@@ -9,6 +9,8 @@ namespace cat.itb.M6UF3EA2_sol.model
 
         [JsonProperty("$date")]
         public long _Date { get; set; }
+        [JsonIgnore]
+        public DateTime DateTime => DateTimeOffset.FromUnixTimeMilliseconds(_Date).DateTime;
     }
 }
 
